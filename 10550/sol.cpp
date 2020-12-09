@@ -1,6 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/*
+    Visualizing an actual combination lock helps a lot for this problem.
+    It's a matter of taking the right arc length depending upon where you
+    are, where you need to go, and which direction you are currently 
+    rotating.
+*/
+
 #define pb push_back
 #define forn(i, l, r) for(int i = l; i <= r; i++)
 #define fornr(i, r, l) for(int i = r; i >= l; i--)
