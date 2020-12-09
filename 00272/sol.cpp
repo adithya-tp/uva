@@ -1,6 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/*
+    Use a tracker variable to know when to push in `` or '' 
+    to the stringstream
+*/
+
 #define pb push_back
 #define forn(i, l, r) for(int i = l; i <= r; i++)
 #define fornr(i, r, l) for(int i = r; i >= l; i--)
