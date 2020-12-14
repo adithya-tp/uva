@@ -5,7 +5,7 @@ using namespace std;
     The third equation gives us a way to prune our search space
     so that we can still get away with a complete search solution.
     Since C is atmost 10,000 the x, y, or z could only range from 
-    -100 to +100. This gets us to around 8,00,000 [200x200x200] 
+    -100 to +100. This gets us to around 8,000,000 [200x200x200] 
     operations per test case in the worst scenario.
 */
 
