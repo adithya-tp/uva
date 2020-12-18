@@ -5,7 +5,7 @@ using namespace std;
     Use a hash-map where the key is each unique value, and the value
     is a vector of all 1-based indices of the unique value's appearance.
 
-    Print the index if the n-th occurence in the query doesn't exceed the
+    Print the index if the n-th occurence in a query doesn't exceed the
     size of the value's vector in the query.
 */
 
