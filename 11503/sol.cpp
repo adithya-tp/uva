@@ -3,7 +3,7 @@ using namespace std;
 
 /*
     Use Union Find to return the size of the bigger disjoint set
-    whenever you unite two disjoint sets.
+    whenever you unite two disjoint sets for each new friendship.
 */
 
 #define pb push_back
