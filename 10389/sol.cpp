@@ -3,7 +3,7 @@ using namespace std;
 
 /*
     Bwoiii this took long. Parsing the given input was much harder than
-    implementing Djikstra's on the parsed input.
+    implementing Dijkstra's on the parsed input.
 
     Alright so, for the points that are read in, the weight of each edge depends on
     the speed at which you can walk along the edge. If two edges are along the same subway
