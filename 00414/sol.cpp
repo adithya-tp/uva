@@ -3,7 +3,7 @@ using namespace std;
 
 /*
     The amount of space is sum of the following difference performed for each row:
-    (Max_X count among all rows) - (number of Xs in row i)
+    (Max_X count among all rows) - (number of Xs in row i).
 */
 
 #define pb push_back
