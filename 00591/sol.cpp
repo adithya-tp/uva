@@ -2,9 +2,8 @@
 using namespace std;
 
 /*
-    Find the average height and add up the difference between 
-    the average height, and height of tower i if tower i 
-    is shorter than the average.
+    Find the average height and add up the difference between the average height, 
+    and height of tower i if tower i is shorter than the average.
 */
 
 #define pb push_back
