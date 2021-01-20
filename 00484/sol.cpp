@@ -2,7 +2,7 @@
 using namespace std;
 
 /*
-    Use a hash map to maintain frequencies, and a "set + vector" to keep track
+    Use a hash map to maintain frequencies, and a "set + vector" duo to keep track
     of the order to print each frequency.
 */
 
