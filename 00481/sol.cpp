@@ -5,7 +5,6 @@ using namespace std;
     nLogk implementation of Longest Increasing Subsequence. The logk factor comes in
     because for each of the n elements we perform binary search to check if it should
     replace some element or extend the array.
-
     We also maintain a parent map to print out the latest LIS.
 */
 
