@@ -4,7 +4,6 @@ using namespace std;
 /*
     Keep track of all the stamps that belong to one person alone using
     a map and set.
-
     Use the resulting map to count the number of unique stamps belonging
     to each of the friends and then print out this fraction as a percentage.
 */
