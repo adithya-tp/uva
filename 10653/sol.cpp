@@ -4,7 +4,6 @@ using namespace std;
 /*
     Perform bfs on an implicit graph. Encode each cell as a single number in the 
     range [0, r * c - 1] when tracking their distance.
-
     The neighbour cells that get pushed into the queue are those that haven't been visited or
     are within bounds or don't have a bomb in them.
 */
