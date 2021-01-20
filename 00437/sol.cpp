@@ -7,7 +7,7 @@ using namespace std;
     permuations of each dimension, because they've got unlimited copies of each box.
 
     After sorting the resulting box dimensions vector, we could run the LIS algorithm
-    where the dynamic programming update is only done if the preceeding boxes can be stacked.
+    where the DP update is only done if the preceeding boxes can be stacked.
 */
 
 #define pb push_back
