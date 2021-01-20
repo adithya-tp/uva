@@ -30,19 +30,6 @@ inline istream& skip_endl(istream &is) { return is.ignore(numeric_limits<streams
 
 int r, c, m, n, l, a, b;
 
-void disable(vvi& g, vi& dirx, vi& diry, int l) {
-    int off = 0;
-    while(off <= l) {
-        forn(i, 0, 3) {
-            int nx = a + dirx[i] * off;
-            int ny = b + diry[i] * off;
-            if(nx < 0 || nx >= r || ny < 0 || ny >= c) continue;
-            g[nx][ny] = -1;
-        }
-        off++;
-    }
-}
-
 int main() {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
