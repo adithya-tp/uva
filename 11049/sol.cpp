@@ -9,7 +9,7 @@ using namespace std;
     I have reversed the row column coordinates when building the graph,
     because it was easier for me to think that way.
 
-    Once this is done, a neighbouring cell (which is two cells away in the 
+    For the bfs traversal, a neighbouring cell (which is two cells away in the 
     horizontal and vertical directions) is only queued if the adjacent
     horizontal or vertical cell is not a wall ('#') or has not been visited.
 
